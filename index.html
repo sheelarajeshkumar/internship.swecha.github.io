@@ -1,0 +1,59 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="swecha summer camp">
+    <meta name="keywords" content="Swecha summer camp">
+    <meta name="author" content="Rajesh Kumar Sheela">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+    
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="app/app.js"></script>
+</head>
+
+<body>
+    <div ng-app="rgApp">
+        <div ng-controller="userForm">
+            <div class="container-fluid">
+                <form action="" method="" class="register-form">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-lg-4">
+                            <label for="firstName">NAME</label>
+                            <input ng-model="userDetails.firstName" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-lg-4">
+                            <label for="email">EMAIL</label>
+                            <input ng-model="userDetails.email" class="form-control" type="email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-lg-4">
+                            <label for="phone">PHONE</label>
+                            <input ng-model="userDetails.phone" class="form-control" type="number">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                            <p>
+                                <input class="form-control" ng-model="userDetails.isaccepted" type="checkbox">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                            <button class="btn btn-default logbutton" disabled="isDisable">Register</button>
+
+                        </div>                       
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>

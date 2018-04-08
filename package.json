@@ -1,0 +1,27 @@
+{
+  "name": "registration",
+  "version": "1.0.0",
+  "description": "This for swacha summercamp registration ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajesh Kumar Sheela",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6",
+    "angular-font-awesome": "^3.1.2",
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest"
+  }
+}
